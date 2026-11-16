@@ -12,8 +12,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0-alpha.1")),
-        .package(url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static", exact: "6.18.0"),
-        .package(url: "https://github.com/AppsFlyerSDK/appsflyer-apple-purchase-connector", exact: "6.18.1"),
+        .package(url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static", exact: "6.18.1"),
+        .package(url: "https://github.com/AppsFlyerSDK/appsflyer-apple-purchase-connector", exact: "6.18.2"),
     ],
     targets: [
         .target(
@@ -29,8 +29,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppodealAppsFlyerAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealAppsFlyerAdapter/6.18.0.3/ab42d92894f1/AppodealAppsFlyerAdapter.xcframework.zip",
-            checksum: "ab42d92894f1be43d9c62291a01816f1c2f287fd29dbf05f8f0e27c292a5bb89"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealAppsFlyerAdapter/6.18.1.0/1d76860e49ba/AppodealAppsFlyerAdapter.xcframework.zip",
+            checksum: "1d76860e49ba172fdb6bbea659fb09a916510ec4290d76a94b07e00d2303bea2"
         ),
 
     ]
